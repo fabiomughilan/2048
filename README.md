@@ -6,16 +6,6 @@ And download an apk here: https://solplay.de/solana-2048/solana2048.apk
 
 Notice that to play you will need to create an account and it will automatically fund a session wallet. The sol in there you will get back when the session expires. 
 
-# Disclaimer
-Neither gum session token nor the solana-2048 program are audited. Use at your own risk.
-This is an example game and not a finished product. It is not optimized for security.
-
-Todos: 
-- Check if there will be conjestion on the highscore account since its part of every move. Could be moved to a submit highscore function, but would be less nice. 
-- Track performance of processed socket commitment using whirligig and without
-- Fix Unity SDK nft loading, which throws exceptions when json doesnt exist and has a huge memory footprint
-- Handle waiting for session token properly as soon as its possible to figure out if a transaction was rejected in UnitySDK
-- Decide if it would make sense to verify that the NFT used for the PDA is actually owned by the player.
 
 
 How to build this example:
